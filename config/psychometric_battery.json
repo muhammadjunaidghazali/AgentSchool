@@ -1,0 +1,73 @@
+{
+  "battery_name": "NUST_Curriculum_Stress_Test_Battery_v1",
+  "administration_weeks": [1, 6, 12, 16],
+  "instruments": [
+    {
+      "scale_id": "MBI_SS",
+      "name": "Maslach Burnout Inventory - Student Survey",
+      "response_scale": {
+        "min": 0,
+        "max": 6,
+        "labels": {
+          "0": "Never",
+          "1": "A few times a year",
+          "2": "Once a month",
+          "3": "A few times a month",
+          "4": "Once a week",
+          "5": "A few times a week",
+          "6": "Every day"
+        }
+      },
+      "items": [
+        {"id": "MBI_EX1", "subscale": "exhaustion", "reverse": false, "text": "I feel emotionally drained by my studies."},
+        {"id": "MBI_EX2", "subscale": "exhaustion", "reverse": false, "text": "I feel used up at the end of a day at university."},
+        {"id": "MBI_EX3", "subscale": "exhaustion", "reverse": false, "text": "Studying or attending a class is really a strain for me."},
+        {"id": "MBI_CY1", "subscale": "cynicism", "reverse": false, "text": "I have become less interested in my studies since my enrollment."},
+        {"id": "MBI_CY2", "subscale": "cynicism", "reverse": false, "text": "I have become more cynical about the potential usefulness of my studies."},
+        {"id": "MBI_EF1", "subscale": "academic_efficacy", "reverse": false, "text": "I can effectively solve the problems that arise in my studies."},
+        {"id": "MBI_EF2", "subscale": "academic_efficacy", "reverse": false, "text": "In my opinion, I am a good student."}
+      ]
+    },
+    {
+      "scale_id": "PSS_10_SHORT",
+      "name": "Perceived Stress Scale (Academic Context)",
+      "response_scale": {
+        "min": 0,
+        "max": 4,
+        "labels": {
+          "0": "Never",
+          "1": "Almost never",
+          "2": "Sometimes",
+          "3": "Fairly often",
+          "4": "Very often"
+        }
+      },
+      "items": [
+        {"id": "PSS_1", "subscale": "perceived_stress", "reverse": false, "text": "In the past week, how often have you felt nervous and stressed because of coursework demands?"},
+        {"id": "PSS_2", "subscale": "perceived_stress", "reverse": false, "text": "In the past week, how often have you found that you could not cope with all the assignments you had to do?"},
+        {"id": "PSS_3", "subscale": "perceived_stress", "reverse": true, "text": "In the past week, how often have you felt confident about your ability to handle your academic problems?"},
+        {"id": "PSS_4", "subscale": "perceived_stress", "reverse": false, "text": "In the past week, how often have you felt academic difficulties were piling up so high that you could not overcome them?"}
+      ]
+    },
+    {
+      "scale_id": "ASES",
+      "name": "Academic Self-Efficacy Scale",
+      "response_scale": {
+        "min": 1,
+        "max": 5,
+        "labels": {
+          "1": "Strongly disagree",
+          "2": "Disagree",
+          "3": "Neutral",
+          "4": "Agree",
+          "5": "Strongly agree"
+        }
+      },
+      "items": [
+        {"id": "ASE_1", "subscale": "self_efficacy", "reverse": false, "text": "I am confident I can master the core concepts taught in this course even when the pace accelerates."},
+        {"id": "ASE_2", "subscale": "self_efficacy", "reverse": false, "text": "When I receive a low score on an early quiz, I know how to adjust my study strategy to recover."},
+        {"id": "ASE_3", "subscale": "self_efficacy", "reverse": false, "text": "I can complete complex assignments on time without becoming overwhelmed."}
+      ]
+    }
+  ]
+}
